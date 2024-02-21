@@ -19,7 +19,7 @@ export default function Home() {
     <main className="h-screen w-screen border border-black bg-[url('../../public/question.jpg')] bg-cover bg-center  bg-left bg-no-repeat flex flex-col justify-center items-center gap-2">
       <h1 className="text-center glass p-2 w-[20%]">FrequentAskedQuestion</h1>
       <div className="glass h-[70%] w-[60%] border border-green-500 flex  flex-col justify-center items-center gap-2 overflow-auto">
-
+    {/* frequently asked component question */}
       {
         Object.entries(frequentAskedQuestion).map((e,i)=>{
           console.log(e[0])
